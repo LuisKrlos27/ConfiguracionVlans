@@ -2,7 +2,7 @@
 Tutorial para la configuracion de vlans mediante el simulador cisco packet tracer student 
 
 #### __INTRODUCCION:__ 
-Como estudiante de Ingeniería en Sistemas de la Universidad de Nariño, puedo decir que la configuración de VLANs en el simulador Cisco Packet Tracer es esencial para la segmentación del tráfico y el diseño eficiente de redes. Para ello, es necesario crear y asignar VLANs en los switches, configurar la comunicación entre ellas mediante el uso de enrutadores o capas de enrutamiento interno, y crear subinterfaces virtuales. Este proceso permite una mayor flexibilidad en el diseño de redes y una segmentación efectiva del tráfico, lo que resulta en una red más eficiente y fácil de administrar.
+Como estudiante de Ingeniería en Sistemas de la Universidad de Nariño, considero que la configuración de VLANs en el simulador Cisco Packet Tracer es esencial para la segmentación del tráfico y el diseño eficiente de redes. Para ello, es necesario crear y asignar VLANs en los switches, configurar la comunicación entre ellas mediante el uso de enrutadores o capas de enrutamiento interno, y crear subinterfaces virtuales. Este proceso permite una mayor flexibilidad en el diseño de redes y una segmentación efectiva del tráfico, lo que resulta en una red más eficiente y fácil de administrar.
 
 ## __LABORATORIO CONFIGURACION VLANS__
 
@@ -15,8 +15,6 @@ Seleccinamos la cantidad de PCs que vayamos a utilizar y los ubicaremos de la si
 De preferencia nombrar cada PC con la ip que le vayamos asignar 
 
 ![paso1](image/paso1.png)
-
-#### PASO 1.1
 
 Para organizar nuestra area de trabajo y poder obervar mejor que PCs queremos en cada vlan se recomienda utilizar marcas para separar nuestras vlans como en la siguiente imagen.
 
@@ -45,3 +43,11 @@ PC tomado de la segunda seccion de nuesta vlan llamada __vlan 60 contabilidad__
 PC tomado de la segunda seccion de nuesta vlan llamada __vlan 70 atencion al usuario__
 
 ![paso2.3](image/paso2.3.png)
+
+## PASO 3:
+
+Ya terminada la configuracion de cada equipo procedemos a ubicar los __switches__ que daran conexion a cada PC atraves de la creacion de las vlans.
+
+En la parte inferior izquierda ubicaremos el mouse en la opcion de __switches__ donde seleccionaremos el swchitch numero __1841__ tal como se muestra en el imagen
+
+![paso3](image/paso3.png)
