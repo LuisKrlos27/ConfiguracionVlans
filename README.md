@@ -205,4 +205,6 @@ Para activar el protocolo rip usaremos el siguiente comando
 
 ![paso8.0](image/paso8.0.png)
 
+Finalmente haremos ping desde el PC 192.168.1.2 hasta el PC 192.168.3.7
 
+![paso8.1](image/paso8.1.png)
