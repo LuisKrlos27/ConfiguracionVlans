@@ -16,3 +16,15 @@ De preferencia nombrar cada PC con la ip que le vayamos asignar
 
 ![paso1](image/paso1.png)
 
+#### PASO 1.1
+
+Para organizar nuestra area de trabajo y poder obervar mejor que PCs queremos en cada vlan se recomienda utilizar marcas para separar nuestras vlans como en la siguiente imagen.
+
+![paso1.1](image/paso1.1png.png)
+
+Ya seleccionada la forma le podemos dar color a cada seccion y nombrear cada recuadro con el nombre de nuestra vlan, asi: 
+
+![paso1.2](image/paso1.2.png)
+
+## PASO 2: 
+
