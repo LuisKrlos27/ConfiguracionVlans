@@ -35,3 +35,13 @@ Una vez organizado nombrando cada equipo y cada area de trabajo es hora de confi
 Una vez dentro de la opcion __destok__ pulsaremos el mouse en la opcion __IP conguration__ y le pondremos la IP que le asignamos de nombre en la parte inicial junto con el __Default gateway__
 
 ![paso2.1](image/paso2.1.png)
+
+__Obervacion:__ el __Default gateway__ en este caso 192.168.1.1 solo se utilizara la primera vlan llamada __vlan 50 sistemas__ en las siguientes dos imagenes se mostrara el __Default gateway__ de las vlans __vlan 60 contabilidad__ y la __vlan 70 atencion al usuario__
+
+PC tomado de la segunda seccion de nuesta vlan llamada __vlan 60 contabilidad__
+
+![paso2.2](image/paso2.2.png)
+
+PC tomado de la segunda seccion de nuesta vlan llamada __vlan 70 atencion al usuario__
+
+![paso2.3](image/paso2.3.png)
