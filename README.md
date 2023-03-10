@@ -145,14 +145,64 @@ Para ver las vlans y los puertos asignados utilizamos el comando enable y luego 
 
 ![paso5.4](image/paso5.4.png)
 
+Foto tomada del switch S2 con sus respectivas vlans y sus puertos
 
-![paso5.2](image/paso5.2.png)
+![paso5.5](image/paso5.5.png)
 
-Una vez terminado de asignar cada PC en su vlan correspondiente es hora de conectar los cables del switch S1 y el switch S3 (ver el paso 4 despues de la nota)
+Foto tomada del switch S3 con sus respectivas vlans y sus puertos
 
+![paso5.6](image/paso5.6.png)
 
+## PASO 6:
 
+Los puertos del switch S1 y S3 0/11 y el 0/18 los pondremos en modo trunk con el siguiente comando 
 
-Luego utilzaremos el comando __show vlan__ para que nos muestre las vlan creadas con sus puertos asignados 
+![paso5.7](image/paso5.7.png)
+
+Luego de haber puesto el modo trunk en los puertos anteriormente mencionados procedemos a quitar los cables con la opcion del simbolo X
+en la parte derecha 
+
+![paso6.0](image/paso6.0.png)
+
+Lo siguiente sera poner en modo trunk los puertos 0/23 del switch S1 y S2, el puerto 0/24 del switch S2 y S3 y conectamos el cable __Copper Cross-Over__ en los puertos que activamos el modo trunk
+
+![paso6.1](image/paso6.1.png)
+
+Nos debe quedar de la siguiente manera el switch S1
+
+![paso6.2](image/paso6.2.png)
+
+Nos debe quedar de la siguiente manera el switch S2
+
+![paso6.3](image/paso6.3.png)
+
+Nos debe quedar de la siguiente manera el switch S3
+
+![paso6.4](image/paso6.4.png)
+
+## PASO 7:
+
+Punto de Investigación para la Implementación
+Las subredes 192.168.1.0, 192.168.2.0 y 192.168.3.0 se conectan entre sí, a través de un router en el cual se debe configurar un protocolo de enrutamiento en este caso el protocolo RIP (Protocolo de enrutamiento IP)
+
+Para ello utilizaremos los comandos de la siguiente manera 
+
+Conectaremos las vlans 50 y 60 en el puerto 0/0
+
+![paso7.0](image/paso7.0.png)
+
+Conectaremos la vlan 70 en el puerto 0/1
+
+![paso7.1](image/paso7.1.png)
+
+Nos debe quedar de esta manera 
+
+![paso7.2](image/paso7.2.png)
+
+## PASO 8:
+
+Para activar el protocolo rip usaremos el siguiente comando 
+
+![paso8.0](image/paso8.0.png)
 
 
