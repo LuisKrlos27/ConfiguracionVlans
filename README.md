@@ -60,9 +60,12 @@ Una vez concluida la ubicacion de los switches vamos a proceder a extender la co
 
 Ya seleccionado el cable procedemos a dar click en el primero switch llamado __S1__ y escogemos la interface 0/1 para el PC identficado con el nnumero de ip 192.168.1.2 de la primera vlan llamada __vlan 50 sistemas__ 
 
-![paso4.1](image/pas4.1.png)
+![paso4.1](image/paso4.1.png)
 
 Daremos click en la interface de conexion 0/1 y procedemos a pulsar sobre el PC ya mencionado y escogemos la opcion que nos aparece ahi llamada __fastEthernet0__
 
 ![paso4.2](image/paso4.2.png)
 
+Asi consecutivamente en todos los PC 
+
+![paso4.3](image/paso4.3.png)
