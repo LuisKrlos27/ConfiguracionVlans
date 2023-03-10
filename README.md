@@ -36,11 +36,11 @@ Una vez dentro de la opcion __desktop__ pulsaremos el mouse en la opcion __IP co
 
 __Obervacion:__ el __Default gateway__ en este caso 192.168.1.1 solo se utilizara la primera vlan llamada __vlan 50 sistemas__ en las siguientes dos imagenes se mostrara el __Default gateway__ de las vlans __vlan 60 contabilidad__ y la __vlan 70 atencion al usuario__
 
-PC tomado de la segunda seccion de nuesta vlan llamada __vlan 60 contabilidad__
+PC tomado de la segunda seccion de nuestra vlan llamada __vlan 60 contabilidad__
 
 ![paso2.2](image/paso2.2.png)
 
-PC tomado de la segunda seccion de nuesta vlan llamada __vlan 70 atencion al usuario__
+PC tomado de la segunda seccion de nuestra vlan llamada __vlan 70 atencion al usuario__
 
 ![paso2.3](image/paso2.3.png)
 
@@ -69,3 +69,58 @@ Daremos click en la interface de conexion 0/1 y procedemos a pulsar sobre el PC 
 Asi consecutivamente en todos los PC 
 
 ![paso4.3](image/paso4.3.png)
+
+Para que los switches se conecten entre si utilizaremos el cabe llamado __Copper Cross-Over__ que se encuentra justo a la derecha del cable __Copper Straight-Through__
+
+![paso4.4](image/paso4.4.png)
+
+La primera conexion sera del switch __S1__ al switch __S2__ utilizando la interfaz de conexion 0/10 en ambos switches 
+
+![paso4.5](image/paso4.5.png)
+
+En este caso deje cuatro interfaces libres para futuras conexiones en la vlan
+
+![paso4.6](image/paso4.6.png)
+
+En el segundo switch llamado __S2__ daremos click sobre el y conectaremos el cable en la interfaz 0/15 para darle conexion con el switch __S3__
+
+![pas4.7](image/paso4.7.png)
+
+Conxion de switch S2 a switch S3
+
+![paso4.8](image/paso4.8.png)
+
+Nos quedaria de la siguiente manera
+
+![paso4.9](image/paso4.9.png)
+
+----------------------------------------------
+__Nota:__
+
+Repetiremos lo anteriormente explicado pero con las interfaces 0/16 del switch S1 a la misma interfaz del switch S2.
+
+Del switch S2 utilizaremos la interfaz 0/17 al misma interfaz del switch S3
+
+![paso4.9.1](image/paso4.9.1.png)
+
+---------------------------------------------
+
+Para lograr que los PCs del switch S1 y el switch 3 se vean entre si necesitaremos conectar un cable que una estos dos switches.
+
+Aunque hayan cables conectados entre si todavia no exite conexion entre el switch S1 y el switch S3 que permita que los PCs de cada vlan se vean en la subred.
+
+Para ello haremos lo siguiente:
+
+Seleccionamos el cable de conexion __Copper Cross-Over__ y en el switch S1 utilizaremos la interfaz 0/11 que conectaremos de igual manera en el switch S3
+
+![paso4.9.2](image/paso4.9.2.png)
+
+De igual manera haremos lo mismo utilizando la interfaz 0/18 del switch S1 y del switch S3
+
+![paso4.9.3](image/paso4.9.3.png)
+
+## PASO 5:
+
+Con todos los PCs ya conectados mediante el cable utilizando cada switch lo que vamos hacer es entrar a la configuracion de cada switch en la interfaz de comandos.
+
+Primero ubicaremos el mouse en el icono de switch y daremos click, se nos abrirar la configuracion del switch y bucaremos la opcion __CLI__
