@@ -121,6 +121,38 @@ De igual manera haremos lo mismo utilizando la interfaz 0/18 del switch S1 y del
 
 ## PASO 5:
 
-Con todos los PCs ya conectados mediante el cable utilizando cada switch lo que vamos hacer es entrar a la configuracion de cada switch en la interfaz de comandos.
+Con todos los PCs ya conectados mediante los cables utilizando cada switch lo que vamos hacer es entrar a la configuracion de cada switch en la interfaz de comandos.
 
 Primero ubicaremos el mouse en el icono de switch y daremos click, se nos abrirar la configuracion del switch y bucaremos la opcion __CLI__
+
+![paso5.0](image/paso5.0.png)
+
+Teniendo abierto esta ventana procedemos a crear las 3 vlan quie estamos utilizando 
+
+Esto lo repetiremos en cada switch 
+
+![paso5.1](image/paso5.1.png)
+
+Ya creadas las vlans, lo siguiente sera configurar los puertos de cada vlan, esto se logra asignando el puerto a la vlan correspondiente
+
+Esto lo haremos en el switch S1
+
+![oaso5.3](image/paso5.3.png)
+
+El switch S1 quedaria configurado de la siguiente manera. 
+
+Para ver las vlans y los puertos asignados utilizamos el comando enable y luego show vlan 
+
+![paso5.4](image/paso5.4.png)
+
+
+![paso5.2](image/paso5.2.png)
+
+Una vez terminado de asignar cada PC en su vlan correspondiente es hora de conectar los cables del switch S1 y el switch S3 (ver el paso 4 despues de la nota)
+
+
+
+
+Luego utilzaremos el comando __show vlan__ para que nos muestre las vlan creadas con sus puertos asignados 
+
+
