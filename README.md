@@ -28,3 +28,10 @@ Ya seleccionada la forma le podemos dar color a cada seccion y nombrear cada rec
 
 ## PASO 2: 
 
+Una vez organizado nombrando cada equipo y cada area de trabajo es hora de configurar cada PC que hemos puesto, para esto daremos click en el icono del PC y se nos abrira la configuracion y daremos clic en __destok__
+
+![paso2](image/paso2.png)
+
+Una vez dentro de la opcion __destok__ pulsaremos el mouse en la opcion __IP conguration__ y le pondremos la IP que le asignamos de nombre en la parte inicial junto con el __Default gateway__
+
+![paso2.1](image/paso2.1.png)
