@@ -51,3 +51,18 @@ Ya terminada la configuracion de cada equipo procedemos a ubicar los __switches_
 En la parte inferior izquierda ubicaremos el mouse en la opcion de __switches__ donde seleccionaremos el switch numero __1841__ tal como se muestra en el imagen
 
 ![paso3](image/paso3.png)
+
+## PASO 4:
+
+Una vez concluida la ubicacion de los switches vamos a proceder a extender la conexion de cada PC mediante un cable llamado __Copper Straight-Through__ que se encuentra en la parte infierior izquierda en la opcion llamada __connection__ 
+
+![paso4](image/paso4.png)
+
+Ya seleccionado el cable procedemos a dar click en el primero switch llamado __S1__ y escogemos la interface 0/1 para el PC identficado con el nnumero de ip 192.168.1.2 de la primera vlan llamada __vlan 50 sistemas__ 
+
+![paso4.1](image/pas4.1.png)
+
+Daremos click en la interface de conexion 0/1 y procedemos a pulsar sobre el PC ya mencionado y escogemos la opcion que nos aparece ahi llamada __fastEthernet0__
+
+![paso4.2](image/paso4.2.png)
+
